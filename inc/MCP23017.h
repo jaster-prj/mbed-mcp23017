@@ -19,7 +19,7 @@
 #define  MCP23017_H
 
 #include "mbed.h"
-#include "../lib/GPIOLib/inc/GPIOExpansionInterface.h"
+#include "GPIOExpansionInterface.h"
 #include <list>
 
 #define MCP23017_INTERRUPT_FLAG 0x01

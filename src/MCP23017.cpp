@@ -17,7 +17,7 @@
  */
 #include "mbed.h"
 #include "mbed_error.h"
-#include "MCP23017.h"
+#include "../inc/MCP23017.h"
 
 union {
     uint8_t  value8[2];
